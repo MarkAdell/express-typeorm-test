@@ -1,0 +1,33 @@
+{
+  "name": "express-typeorm-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist",
+    "start": "node dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkAdell/express-typeorm-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarkAdell/express-typeorm-test/issues"
+  },
+  "homepage": "https://github.com/MarkAdell/express-typeorm-test#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-env": "^1.6.1"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "mysql": "^2.15.0",
+    "reflect-metadata": "^0.1.12",
+    "typeorm": "^0.1.19"
+  }
+}
